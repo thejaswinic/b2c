@@ -1,0 +1,36 @@
+{
+    "tenant_name" : "<tenant_name>.onmicrosoft.com",
+    "client_id": "<Application ID>",
+    "redirect_uri":"https://localhost:855/b2cresponse.htm",
+    "home_uri":"https://localhost:855/default.htm",
+    "policy":[
+        "B2C_1_si",
+        "B2C_1_si_mfa",
+        "B2C_1_su",
+        "B2C_1_su_mfa",
+        "B2C_1_susi",
+        "B2C_1_susi_mfa",
+        "B2C_1_susi_optional_email",
+        "B2C_1_susi_loc_enabled",
+        "B2C_1_susi_pageui_mfa",
+        "B2C_1_pe",
+        "B2C_1_pr",
+        "B2C_1_pr_mfa",
+        "B2C_1_xyz_policy"
+        ],
+    "response_types":[
+        "code",
+        "token",
+        "id_token",
+        "code id_token",
+        "code token",
+        "token id_token",
+         "code id_token token",
+         "id_token token"
+         ],
+    "state":"this is a js sample app",
+    "ui_locales":[" বাংলা    [bn]","čeština    [cs]","dansk    [da]","Deutsch    [de]","Ελληνικά    [el]","English    [en]","español    [es]","suomi    [fi]","français    [fr]","ગુજરાતી    [gu]","עברית    [he]"," हिंदी    [hi]","hrvatski    [hr]","magyar    [hu]","italiano    [it]","日本語    [ja]","ಕನ್ನಡ    [kn]","한국어    [ko]"," മലയാളം    [ml]"," मराठी    [mr]","Bahasa Melayu    [ms]","norsk (bokmål)    [nb]","Nederlands    [nl]","ਪੰਜਾਬੀ    [pa]","polski    [pl]","português (Brasil)    [pt-BR]","português (Portugal)    [pt-PT]","română    [ro]","русский    [ru]","slovenčina    [sk]","svenska    [sv]"," தமிழ்    [ta]"," తెలుగు    [te]"," ไทย    [th]","Türkçe    [tr]","中文(简体)    [zh-Hans]","中文(繁體)    [zh-Hant]"]
+}
+
+
+            
